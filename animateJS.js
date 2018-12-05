@@ -1,9 +1,8 @@
 var head  = document.getElementsByTagName('head')[0];
 var link  = document.createElement('link');
-link.id   = cssId;
 link.rel  = 'stylesheet';
 link.type = 'text/css';
-link.href = 'http://website.com/css/stylesheet.css';
+link.href = 'https://raw.githubusercontent.com/ChaoticVisions/CoyoteCoding/master/animateCSS.scss';
 link.media = 'all';
 head.appendChild(link);
 var aJS = {
